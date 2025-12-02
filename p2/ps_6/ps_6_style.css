@@ -1,0 +1,24 @@
+
+#outer {
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: currentColor;
+    text-transform: capitalize;
+    color: #00ff00;
+}
+
+
+
+#inner {
+    line-height: 10px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: currentColor;
+    text-transform: capitalize;
+    color: rgb(233,0,33);
+}

@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product Landing — Modern Widget</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ENjdO4Dr2bkBIFxQpeoYz1FQZ7t27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="bg-white border-bottom">
+      <nav class="container navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand fw-bold" href="#">Modern<span class="text-primary">Widget</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+            <li class="nav-item"><a class="btn btn-primary ms-2" href="#purchase" data-bs-toggle="modal">Buy Now</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container py-5">
+      <section class="row align-items-center mb-5">
+        <div class="col-lg-6">
+          <h1 class="display-5">Modern Widget — Elevate Your Everyday</h1>
+          <p class="lead text-muted">A single-product landing page showcasing the Modern Widget: sleek, powerful, and ready to simplify your life.</p>
+          <ul class="list-unstyled">
+            <li>• Lightweight & durable</li>
+            <li>• Long battery life</li>
+            <li>• Seamless app integration</li>
+          </ul>
+          <div class="d-flex gap-2 mt-3">
+            <a class="btn btn-primary btn-lg" href="#purchase" data-bs-toggle="modal">Buy Now — $129</a>
+            <a class="btn btn-outline-secondary btn-lg" href="#related">Explore Related</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <!-- Carousel -->
+          <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner rounded shadow-sm">
+              <div class="carousel-item active">
+                <img src="https://picsum.photos/800/600?random=101" class="d-block w-100" alt="Product image 1">
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/800/600?random=102" class="d-block w-100" alt="Product image 2">
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/800/600?random=103" class="d-block w-100" alt="Product image 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="mb-5">
+        <h2 class="h3">Key Features</h2>
+        <p class="text-muted">Designed for daily use with features customers love.</p>
+        <div class="row g-3">
+          <article class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5">Fast Performance</h3>
+                <p class="mb-0 text-muted">High-speed processor for smooth operation and instant responsiveness.</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5">Long Battery</h3>
+                <p class="mb-0 text-muted">Up to 72 hours on a single charge, with quick-charge support.</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5">Smart App</h3>
+                <p class="mb-0 text-muted">Full control and analytics via our companion app for iOS and Android.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="pricing" class="mb-5">
+        <h2 class="h3">Pricing</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card text-center h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title">Standard</h3>
+                <p class="h2 my-3">$129<span class="fs-6 text-muted"> / one-time</span></p>
+                <p class="text-muted">Perfect for most users — includes 1-year warranty and app access.</p>
+                <a class="btn btn-outline-primary" href="#purchase" data-bs-toggle="modal">Choose Standard</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center h-100 border-primary shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title">Pro</h3>
+                <p class="h2 my-3">$179<span class="fs-6 text-muted"> / one-time</span></p>
+                <p class="text-muted">Extended warranty plus premium support and exclusive features.</p>
+                <a class="btn btn-primary" href="#purchase" data-bs-toggle="modal">Choose Pro</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title">Bundle</h3>
+                <p class="h2 my-3">$229<span class="fs-6 text-muted"> / two</span></p>
+                <p class="text-muted">Two-pack savings for families and teams.</p>
+                <a class="btn btn-outline-primary" href="#purchase" data-bs-toggle="modal">Choose Bundle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="mb-5">
+        <h2 class="h3">Customer Reviews</h2>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h6">"Exceeded expectations"</h3>
+                <p class="text-muted small">"The Modern Widget simplified my workflow. Battery lasts for days." — Priya</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h6">"Stylish and useful"</h3>
+                <p class="text-muted small">"Looks great on the desk and integrates with my phone easily." — Jamal</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h6">"Great value"</h3>
+                <p class="text-muted small">"Feature-packed for the price. Highly recommend." — Sofia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside id="related" class="mb-5">
+        <h2 class="h3">Related Products</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="https://picsum.photos/400/300?random=201" class="card-img-top" alt="related 1">
+              <div class="card-body">
+                <h3 class="h6">Widget Mini</h3>
+                <p class="text-muted small">Compact version — $79</p>
+                <a class="btn btn-sm btn-outline-primary" href="#">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="https://picsum.photos/400/300?random=202" class="card-img-top" alt="related 2">
+              <div class="card-body">
+                <h3 class="h6">Widget Pro Case</h3>
+                <p class="text-muted small">Protective case — $29</p>
+                <a class="btn btn-sm btn-outline-primary" href="#">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="https://picsum.photos/400/300?random=203" class="card-img-top" alt="related 3">
+              <div class="card-body">
+                <h3 class="h6">Widget Dock</h3>
+                <p class="text-muted small">Fast charging dock — $49</p>
+                <a class="btn btn-sm btn-outline-primary" href="#">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+    </main>
+
+    <footer class="bg-light py-4 mt-5 border-top">
+      <div class="container text-center small text-muted">© 2025 Modern Widget — Built with Bootstrap 5</div>
+    </footer>
+
+    <!-- Purchase / Registration Modal -->
+    <div class="modal fade" id="purchase" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <form class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Complete Purchase</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label class="form-label">Full name</label>
+              <input class="form-control" type="text" placeholder="Your name" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input class="form-control" type="email" placeholder="you@example.com" required>
+            </div>
+            <div class="mb-3 row">
+              <div class="col-6">
+                <label class="form-label">Quantity</label>
+                <input class="form-control" type="number" min="1" value="1">
+              </div>
+              <div class="col-6">
+                <label class="form-label">Plan</label>
+                <select class="form-select">
+                  <option>Standard — $129</option>
+                  <option>Pro — $179</option>
+                  <option>Bundle — $229</option>
+                </select>
+              </div>
+            </div>
+            <small class="text-muted">This demo modal is non-functional — replace with your checkout integration.</small>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Confirm Purchase</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2Qr4gq8qQbsw3yZ2bW1jBv3zUOFUFpCjEUQouq2+l8Pp6tr" crossorigin="anonymous"></script>
+  </body>
+</html>

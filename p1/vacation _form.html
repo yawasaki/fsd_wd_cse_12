@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Request Form : </title>
+</head>
+<body>
+    <div><h2 align= "center">Vacation Request Form : </h2></div>
+    <form>
+        <label for="Name">Name : </label>
+        <input id="Name" type = "text" name ="name" placeholder = "Enter your name" required><br>
+        <label for = "Age"> Age : </label>
+        <input type = "number" id="Age" required><br>
+        <label for = "Post"> Post : </label>
+        <input id = "Post" type="text" required>
+        <div>Status :</div>
+        <input type ="radio" name="status" value = "part-time">Part Time<br>
+        <input type ="radio" name="status" value = "full-time">Full Time<br>
+        <div>First day of leave :<br><input type = "date"></div>
+        <div>Last day of leave :<br><input type = "date"></div>
+        <div>Duration of the Leave(in number) :<textarea name = "number"></textarea></div>
+        <div>Reason For Requested Time Off :</div>
+        <input type ="radio" name="status" value = "Vacation">Vacation<br>
+        <input type ="radio" name="status" value = "sick">Sick<br>
+        <input type ="radio" name="status" value = "Other">Other<br>
+        <div>Signature :
+            <textarea name = "text"></textarea>
+
+        </div>
+        <button type="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>

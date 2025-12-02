@@ -1,0 +1,28 @@
+#jor {
+    height:100px;
+    width:100px;
+    background-color:rosybrown;
+    border:20px dashed black;
+}
+#hr {
+    height:100px;
+    width:100px;
+    background-color:rosybrown;
+    border:20px dashed black;
+
+}
+#rock {
+    height:100px;
+    width:100px;
+    background-color:rosybrown;
+    border:20px dashed black;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
